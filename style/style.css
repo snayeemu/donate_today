@@ -156,3 +156,14 @@
     margin-right: 0;
     margin-left: 50px;
 }
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form > form{
+    background-color: #91915463;
+    padding: 50px 113px;
+
+}
