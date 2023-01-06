@@ -36,9 +36,83 @@
 }
 .headerButton{
     color: white;
-    background-color: #e84d4d;
-    padding: 12px;
+    background-color: #eb4242;
+    padding: 20px;
     font-size: 18px;
     border-radius: 5px;
     border: none;
+}
+.donateContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.donateTitle{
+    font-size: 50px;
+}
+.donateDescription{
+    color: gray;
+}
+.donateAmountContainer{
+    display: flex;
+    gap: 123px;
+    margin-top: 70px;
+}
+.donateAmount{
+    color: grey;
+    font-size: 32px;
+}
+.donateAmount{
+    padding: 50px 0;
+}
+.donate200tk{
+    border: 3px solid #ff5656;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin-top: 0;
+    background-color: #f0808021;
+    color: #ff5656;
+}
+.otherAmount{
+    display: flex;
+    justify-content: center;
+    color: #b8b2b2;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid #b8b2b252;
+    padding: 10px 449px;
+}
+.secondButton{
+    margin-bottom: 70px;
+}
+.donateItems{
+    display: flex;
+    margin: 50px 100px;
+    justify-content: center;
+    gap: 20px;
+    max-width: 80%;
+}
+.donateItem{
+    padding: 51px 69px;
+}
+.donateItem > img, h3{
+    margin-bottom: 25px;
+}
+.donateItem > h3{
+    font-size: 30px;
+}
+.donateItem > p{
+    font-size: 17px;
+    color: gray;
+}
+.donateItem1{
+    background-color: #add8e647;
+}
+.donateItem2{
+    background-color: #eb9c9c42;
+}
+.donateItem3{
+    background-color: #ffff9a8a;
 }
