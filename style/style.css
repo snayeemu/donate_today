@@ -92,7 +92,7 @@
     margin: 50px 100px;
     justify-content: center;
     gap: 20px;
-    max-width: 80%;
+    max-width: 85%;
 }
 .donateItem{
     padding: 51px 69px;
@@ -115,4 +115,41 @@
 }
 .donateItem3{
     background-color: #ffff9a8a;
+}
+.dependContainer{
+    display: flex;
+    max-width: 85%;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 25px;
+    margin-top: 150px;
+}
+.dependImage{
+    width: 100%;
+}
+.subContainerText{
+    padding: 5px 20px;
+}
+.dependTitle{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.dependDescription{
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+
+}
+.dependButton{
+    color: white;
+    background-color: #eb4242;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.subContainerText2{
+    margin-right: 0;
+    margin-left: 50px;
 }
