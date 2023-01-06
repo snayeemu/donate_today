@@ -54,6 +54,9 @@
 }
 .donateDescription{
     color: gray;
+    font-size: 24px;
+    max-width: 50%;
+    text-align: center;
 }
 .donateAmountContainer{
     display: flex;
