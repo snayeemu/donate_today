@@ -167,6 +167,23 @@
     padding: 50px 113px;
 
 }
+form > input {
+    padding: 21px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+}
+.formButton{
+    margin: 0;
+    float: right;
+    color: white;
+    background-color: #eb4242;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
 .footer{
     display: flex;
     flex-direction: column;
